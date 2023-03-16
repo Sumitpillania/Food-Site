@@ -13,7 +13,7 @@ body {
 /* Header styles */
 
 header {
-	background-color :#f2f2f2;
+	background: transparent;
 	padding: 20px;
 	display: flex;
 	flex-direction: row;
@@ -21,22 +21,29 @@ header {
 	align-items: center;
 
 }
-header img{
-    display: flex;
-    flex-direction: column;
-  margin-top:-52;
-  margin-left:-18 ;
-  padding: 0;
-  border-radius: 10px;
- 
+
+header img {
+	display: flex;
+	flex-direction: column;
+	margin: -44px -570px 5px -8px;
+	padding: 0;
+	border-radius: 10px;
+	cursor: pointer;
+
 }
 
 header h1 {
-	font-size: 2rem;
-    margin-left: -4.4em;
-    margin-top: 15px;
-    margin-bottom: -15px;
+	display:flex;
+	color: white;
+	
+flex-direction: column-reverse;
+place-content: right;
+align-items: right;
+justify-content: right;
+justify-items: right;
+cursor: pointer;
 }
+
 
 nav ul {
 	display: flex;
@@ -49,21 +56,25 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #000;
+	color: #fffdfd;
 	text-decoration: none;
 	font-weight: bold;
 }
-nav ul li a:hover{
-    color: red;
-    box-shadow: blue 2px 2px 4px 4px;
+
+nav ul li a:hover {
+	color: red;
+	/* box-shadow: blue 2px 2px 4px 4px; */
 
 }
+
 
 /* Hero section styles */
 
 .hero {
-	height: 200px;
-	background-image: url('https://media.istockphoto.com/id/1191080960/photo/traditional-turkish-breakfast-and-people-taking-various-food-wide-composition.jpg?s=612x612&w=0&k=20&c=PP5ejMisEwzcLWrNmJ8iPPm_u-4P6rOWHEDpBPL2n7Q=');
+	height: 335px;
+	
+	background-image:url('https://nomadsunveiled.com/wp-content/uploads/2022/02/turkish-foods-in-turkey.jpg' );
+	
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -71,14 +82,16 @@ nav ul li a:hover{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin-top: -76px;
 }
 
 .hero h2 {
 	font-size: 3rem;
 	color: #fff;
-    text-align: center;
+	text-align: center;
+	margin-top: 160px;
 	margin-bottom: 20px;
-     color:white;
+	color: white;
 }
 
 .hero p {
@@ -194,15 +207,12 @@ nav ul li a:hover{
 	font-size: 2rem;
 	text-align: center;
 	margin-bottom: 20px;
-   
+
 }
 
 form {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-   
+
 }
-form>label>textarea{ 
-   
-    }
